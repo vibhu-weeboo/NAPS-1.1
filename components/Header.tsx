@@ -42,7 +42,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <header className="bg-gray-900/70 backdrop-blur-xl border-b border-gray-700/50 sticky top-0 z-50 shadow-[0_4px_30px_rgba(15,107,107,0.2)]">
+      <header className="bg-gray-900/70 backdrop-blur-xl border-b border-gray-700/50 fixed top-0 left-0 right-0 z-50 shadow-[0_4px_30px_rgba(15,107,107,0.2)]">
         <nav className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-3 py-0 md:px-4 md:py-1">
           <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img
