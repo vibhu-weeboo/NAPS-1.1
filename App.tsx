@@ -76,7 +76,7 @@ const App: React.FC = () => {
         
         <div className="relative z-10">
           <Header />
-          <main className="flex-grow">
+          <main className="flex-grow pt-20 md:pt-24">
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<AboutPage />} />
