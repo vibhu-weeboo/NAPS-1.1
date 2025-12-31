@@ -157,7 +157,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ type = 'contact' }) => {
             onChange={handleChange}
             required
             className="w-full px-4 py-2 bg-gray-900/50 border border-gray-600 rounded-md text-gray-200 focus:ring-naps-teal focus:border-naps-teal transition"
-            placeholder="Vibhu Weeboo"
+            placeholder="Your Name"
           />
         </div>
         <div>
